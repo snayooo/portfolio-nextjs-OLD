@@ -1,0 +1,36 @@
+.nav {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img img {
+    height: 60px;
+    width: 60px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    margin-top: 50px;
+}
+
+.element {
+    height: 100%;
+    width: 100%;
+}
+
+.list a {
+    color: var(--color);
+    font-family: var(--font-2);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list a:hover {
+    text-decoration: underline;
+}

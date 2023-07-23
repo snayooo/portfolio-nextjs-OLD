@@ -1,0 +1,79 @@
+.contact h2 {
+    color: var(--primary);
+    font-family: var(--font-2);
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    font-size: 20px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid var(--color);
+    color: var(--color);
+    margin-top: 10px;
+    font-family: var(--font-2);
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form textarea {
+    width: 800px;
+    min-height: 20px;
+    max-height: 400px;
+    background: transparent;
+    color: var(--color);
+    border: none;
+    border-bottom: 3px solid var(--color);
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: var(--font-2);
+    resize: none;
+}
+
+.form textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form button {
+    width: 200px;
+    font-size: 20px;
+    padding: 3px;
+    margin-left: 607px;
+    margin-top: 10px;
+    background-color: var(--primary);
+    border: 3px solid var(--primary);
+    color: var(--color);
+    border-radius: 12px;
+    box-shadow: 5px 5px #eeeeee;
+}
+
+.form button:hover {
+    cursor: pointer;
+}
+
+.form button:active {
+    box-shadow: none;
+    transform: translate(5px, 5px);
+}

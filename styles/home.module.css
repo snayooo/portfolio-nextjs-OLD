@@ -1,0 +1,21 @@
+
+
+.home p {
+	font-size: 24px;
+	color: var(--color);
+	font-family: var(--font-2);
+}
+
+.home h1 {
+	font-size: 120px;
+	font-family: var(--font-1);
+	background: linear-gradient(120deg, var(--primary) 30% , #006aff 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.home {
+    margin-top: 290px;
+    text-align: center;
+}
